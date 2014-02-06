@@ -1,0 +1,3 @@
+Director:
+  rules:
+    '/csp-report/': Heyday\CSP\Controller
