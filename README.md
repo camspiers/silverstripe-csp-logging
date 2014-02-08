@@ -20,6 +20,4 @@ Injector:
 ```
 
 2. Set your Content-Security-Policy headers
-3. Add "report-uri /csp-report/;" to the header to log violations through SilverStripe
-
-Header always append Content-Security-Policy "report-uri /csp-report/; script-src 'self'"
+3. Add "report-uri /csp-report/;" to the `Content-Security-Policy` header to log violations through SilverStripe
