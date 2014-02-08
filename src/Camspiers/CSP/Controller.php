@@ -1,6 +1,6 @@
 <?php
 
-namespace Heyday\CSP;
+namespace Camspiers\CSP;
 
 use Psr\Log\LoggerInterface;
 use Controller as SilverStripeController;
@@ -8,7 +8,7 @@ use SS_HTTPRequest;
 
 /**
  * Class Controller
- * @package Heyday\CSP
+ * @package Camspiers\CSP
  */
 class Controller extends SilverStripeController
 {

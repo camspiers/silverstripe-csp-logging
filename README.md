@@ -4,7 +4,7 @@ Allows the logging of CSP violations in SilverStripe
 
 ## Installation (with composer)
 
-	composer require heyday/silverstripe-csp-logging
+	composer require camspiers/silverstripe-csp-logging
 
 ## Usage
 
@@ -14,7 +14,7 @@ Provide an instance of `Psr\Log\LoggerInterface` to the CSP controller:
 
 ```yaml
 Injector:
-  Heyday\CSP\Controller:
+  Camspiers\CSP\Controller:
     constructor:
       0: %$Monolog
 ```

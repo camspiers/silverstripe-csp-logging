@@ -1,5 +1,5 @@
 {
-	"name": "heyday/silverstripe-csp-logging",
+	"name": "camspiers/silverstripe-csp-logging",
 	"type": "silverstripe-module",
 	"license": "MIT",
 	"description": "Logs CSP violations through a logger",
@@ -9,7 +9,7 @@
 	}],
 	"autoload": {
 		"psr-0": {
-			"Heyday\\CSP": "src/"
+			"Camspiers\\CSP": "src/"
 		}
 	},
 	"require": {
