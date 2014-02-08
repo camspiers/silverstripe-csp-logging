@@ -1,5 +1,7 @@
 # SilverStripe Content-Security-Policy Logging
 
+[![Build Status](https://travis-ci.org/camspiers/silverstripe-csp-logging.png?branch=master)](https://travis-ci.org/camspiers/silverstripe-csp-logging)
+
 Allows the logging of CSP violations in SilverStripe
 
 ## Installation (with composer)
