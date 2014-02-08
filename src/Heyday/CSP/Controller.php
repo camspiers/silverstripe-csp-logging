@@ -23,6 +23,7 @@ class Controller extends SilverStripeController
     public function __construct(LoggerInterface $logger)
     {
         $this->logger = $logger;
+        parent::__construct();
     }
 
     /**
